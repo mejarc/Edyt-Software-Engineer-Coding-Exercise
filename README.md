@@ -49,6 +49,5 @@ or:
     ./run
 ```
 
-We will then navigate a web server to http://localhost:8080 to evaluate your program.
-
+We will then navigate a web server to [http://localhost:8080](http://localhost:8080) to evaluate your program.
 
