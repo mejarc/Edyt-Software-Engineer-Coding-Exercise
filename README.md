@@ -10,12 +10,24 @@ Although you can use whatever tools, languages, and frameworks you like, we high
 Objective
 ---------
 
-Write a web server that listens on port 8080 and shows a web page that allows a user to view the current weather at some city.  For example, it could serve up an introductory page that allows the user to type in a short text string (for example "San Francisco, CA").  The user can then initiate the looking up of the weather (say, by pressing a "current weather" button).  Your program must show the user the current weather (for example, "Currently, the sky is clear, temperature is 59F").  The particulars of the interaction, and how the results are displayed to the user, are not important.  Also, accurate geocoding is not the point of this exercise: anything simple is acceptable.
+Write a web server that listens on port 8080 and shows a web page that allows a
+user to view the current weather at some city.  For example, it could serve up
+an introductory page that allows the user to type in a short text string (for
+example "San Francisco, CA").  The user can then initiate the looking up of
+the weather (say, by pressing a "current weather" button).  Your program 
+must show the user the current weather (for example, "Currently, the sky 
+is clear, temperature is 59F").  You must find and use a free public API 
+that gives you the current weather, hard-coded fake weather is not good
+enough.  The particulars of the interaction, and how the results are
+displayed to the user, are not important.  Also, accurate geocoding is not the 
+point of this exercise: anything simple is acceptable.
 
 How to Submit
 -------------
 
-You must return to us the completed assignment as a git repo.  The repo must be self-contained: it must contain everything required to run your code (compilers, libraries, frameworks).  You can assume the following:
+You must return to us the completed assignment as a git repo.  The repo 
+must be self-contained: it must contain everything required to run your
+code (compilers, libraries, frameworks).  You can assume the following:
 
 * Your submission will be run on CentOS 6.5 or Ubuntu 14 (either is fine, it doesn't have to work on both);
 * Python 2.7.6 is pre-installed;
