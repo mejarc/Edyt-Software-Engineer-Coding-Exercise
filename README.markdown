@@ -14,7 +14,8 @@ Git clone:
 
 Start the application from its project directory:
 
-    $ node run init.js
+    $ cd weather-check
+    $ express app.js
 
 View it in the browser at [`http://localhost:8080`](http://localhost:8080).
 
@@ -32,7 +33,7 @@ This repo includes unit and feature tests using the [Mocha](http://mochajs.org/)
 
 To run the tests from the project directory:
 
-    $ make tests
+    $ mocha
 
 
 ## Filing a bug or feature request
