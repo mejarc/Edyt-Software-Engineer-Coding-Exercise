@@ -9,17 +9,14 @@ Supply a city name, fetch the current weather conditions for it. Now you have a 
 You can clone or [download](https://github.com/mejarc/Edyt-Software-Engineer-Coding-Exercise/archive/master.zip) to obtain the full code for this application.
 
 Git clone:
-
     $ git clone https://github.com/mejarc/Edyt-Software-Engineer-Coding-Exercise.git
 
-Start the application from its project directory:
-
-    $ cd weather-check
-    $ express app.js
+To start the application:
+    $ ./run
 
 View it in the browser at [`http://localhost:8080`](http://localhost:8080).
 
-To stop the application server, type `&#8984;c` (Cmd-c, Mac) or `&#8963;c` (Ctrl-c, Windows).
+To stop the application server, type &#8963;c (Ctrl-c).
 
 ## Usage
 
@@ -31,8 +28,8 @@ To stop the application server, type `&#8984;c` (Cmd-c, Mac) or `&#8963;c` (Ctrl
 
 This repo includes unit and feature tests using the [Mocha](http://mochajs.org/) testing framework, using the [Chai](http://chaijs.com/) assertion library.
 
-To run the tests from the project directory:
-
+To run the tests:
+    $ cd weather-check
     $ mocha
 
 
