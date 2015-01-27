@@ -2,4 +2,13 @@ extends layout
 
 block content
   h1= title
-  p Welcome to #{title}
+  form(action='/weather', id='input', method='post')
+    div
+      label(for='city') Enter a city name
+      input(id='city', name='city', value='')
+    div
+      input(type='submit', value='Get current weather')
+    div#result
+      p= result
+
+
