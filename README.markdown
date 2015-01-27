@@ -13,10 +13,12 @@ This application requires you to install [Node 0.10.x](http://nodejs.org/) and [
 You can clone or [download](https://github.com/mejarc/Edyt-Software-Engineer-Coding-Exercise/archive/master.zip) to obtain the full code for this application.
 
 Git clone:
+
 ````
     $ git clone https://github.com/mejarc/Edyt-Software-Engineer-Coding-Exercise.git
 ````
 To start the application:
+
 ````
     $ ./run
 ````
@@ -35,6 +37,7 @@ To stop the application server, type &#8963;c (Ctrl-c).
 This repo includes unit and feature tests using the [Mocha](http://mochajs.org/) testing framework, using the [Chai](http://chaijs.com/) assertion library.
 
 To run the tests:
+
 ````
     $ cd weather-check
     $ mocha
