@@ -15,7 +15,7 @@ router.post('/weather', function(req, res, next) {
     if (!error && response.statusCode == 200) {
       var obj = JSON.parse(data);
       var desc = obj.weather[0]['description']
-          , degrees = obj.main['temp'];
+          , degrees = parseInt(obj.main['temp']);
       res.render('index', { title: "Let's Talk About the Weather", place: city, description: desc, temp: degrees });
     }
   });
