@@ -1,0 +1,17 @@
+extends layout
+
+block content
+  h1= title
+  form(action='/weather', id='input', method='post')
+    div
+      label(for='city') Enter a city name
+      input(id='city', name='city', value='')
+    div
+      input(type='submit', value='Get current weather')
+    div#result
+      h2= place
+      if description
+        p= 'The weather is described as "' + description + '."'
+      if temp
+        p= 'The temperature is ' + temp + ' degrees (F).'
+      

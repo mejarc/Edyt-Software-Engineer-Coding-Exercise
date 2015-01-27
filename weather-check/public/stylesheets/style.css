@@ -1,0 +1,30 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+div {
+  margin: .67rem 0;
+}
+
+h2 {
+  text-transform: capitalize;
+}
+
+input {
+  padding: .25rem;
+}
+
+label {
+  display: block;
+}
+
+label:after{
+  content: ':';
+  display: inline-block;
+  margin-right: .25rem;
+}
