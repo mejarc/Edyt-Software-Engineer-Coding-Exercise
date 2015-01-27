@@ -9,6 +9,9 @@ block content
     div
       input(type='submit', value='Get current weather')
     div#result
-      p= result
-
-
+      h2= place
+      if description
+        p= 'The weather is described as "' + description + '."'
+      if temp
+        p= 'The temperature is ' + temp + ' degrees (F).'
+      
